@@ -1,0 +1,12 @@
+name = "i-devr-code-api"
+main = "src/index.js"
+compatibility_date = "2023-01-01"
+
+[vars]
+STRIPE_PUBLIC_KEY = ""
+# Add other environment variables as needed
+
+# Add KV namespace for data storage
+# kv_namespaces = [
+#   { binding = "DATA_STORE", id = "xxx", preview_id = "xxx" }
+# ]

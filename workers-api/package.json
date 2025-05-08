@@ -1,0 +1,17 @@
+{
+  "name": "i-devr-code-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers API for I-DevR Code",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "itty-router": "^3.0.12",
+    "stripe": "^12.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
